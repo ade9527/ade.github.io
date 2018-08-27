@@ -3,17 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https//ade9527.github.io/categories/</loc>
+    <loc>/secend/test/</loc>
+    <lastmod>2018-08-26T00:13:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/about/</loc>
+    <lastmod>2018-08-25T23:13:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/my_first_post/</loc>
+    <lastmod>2018-08-25T23:03:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https//ade9527.github.io/tags/</loc>
+    <loc>/posts/</loc>
+    <lastmod>2018-08-25T23:13:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https//ade9527.github.io/</loc>
+    <loc>/secend/</loc>
+    <lastmod>2018-08-26T00:13:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-08-26T00:13:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   

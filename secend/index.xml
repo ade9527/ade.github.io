@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secends on 王正华的博客</title>
+    <link>https//ade9527.github.io/secend/</link>
+    <description>Recent content in Secends on 王正华的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Aug 2018 00:13:58 +0800</lastBuildDate>
+    
+	<atom:link href="https//ade9527.github.io/secend/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https//ade9527.github.io/secend/test/</link>
+      <pubDate>Sun, 26 Aug 2018 00:13:58 +0800</pubDate>
+      
+      <guid>https//ade9527.github.io/secend/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

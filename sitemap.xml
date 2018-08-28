@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>/tool_usage_record/neovim_install_record/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -20,6 +24,11 @@
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tool_usage_record/</loc>
     <priority>0</priority>
   </url>
   

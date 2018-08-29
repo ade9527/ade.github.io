@@ -12,17 +12,17 @@
     <title>neovim的安装配置记录 :: 王正华的博客</title>
 
     
-    <link href="/css/nucleus.css?1535466169" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1535466169" rel="stylesheet">
-    <link href="/css/hybrid.css?1535466169" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1535466169" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1535466169" rel="stylesheet">
-    <link href="/css/auto-complete.css?1535466169" rel="stylesheet">
-    <link href="/css/theme.css?1535466169" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1535466169" rel="stylesheet">
+    <link href="/css/nucleus.css?1535548411" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1535548411" rel="stylesheet">
+    <link href="/css/hybrid.css?1535548411" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1535548411" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1535548411" rel="stylesheet">
+    <link href="/css/auto-complete.css?1535548411" rel="stylesheet">
+    <link href="/css/theme.css?1535548411" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1535548411" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1535466169"></script>
+    <script src="/js/jquery-2.x.min.js?1535548411"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -67,14 +67,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1535466169"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1535466169"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1535548411"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1535548411"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1535466169"></script>
+<script type="text/javascript" src="/js/search.js?1535548411"></script>
 
     
   </div>
@@ -249,17 +249,17 @@
 <ul>
 <li>
 <ul>
-<li><a href="#安装neovim">安装neovim</a></li>
-<li><a href="#插件">插件</a>
+<li><a href="#1-安装neovim">1.安装neovim</a></li>
+<li><a href="#2-插件">2.插件</a>
 <ul>
-<li><a href="#插件管理工具">插件管理工具</a></li>
-<li><a href="#自动补全工具">自动补全工具</a></li>
+<li><a href="#2-1插件管理工具">2.1插件管理工具</a></li>
+<li><a href="#2-2自动补全工具ycm">2.2自动补全工具YCM</a></li>
 </ul></li>
-<li><a href="#一些问题">一些问题</a>
+<li><a href="#3-一些问题">3.一些问题</a>
 <ul>
 <li><a href="#使用系统剪切板">使用系统剪切板</a></li>
 </ul></li>
-<li><a href="#配置文件">配置文件</a></li>
+<li><a href="#4-配置文件">4.配置文件</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -284,7 +284,7 @@
 
 <p>记录安装过程和使用的插件安装,及使用中遇到的一些问题.</p>
 
-<h2 id="安装neovim">安装neovim</h2>
+<h2 id="1-安装neovim">1.安装neovim</h2>
 
 <p>这里有neovim的各种环境下的安装方法:
 <a href="https://github.com/neovim/neovim/wiki/Installing-Neovim">https://github.com/neovim/neovim/wiki/Installing-Neovim</a></p>
@@ -297,13 +297,18 @@ sudo apt update
 sudo apt install neovim
 </code></pre>
 
-<h2 id="插件">插件</h2>
+<h2 id="2-插件">2.插件</h2>
 
-<h3 id="插件管理工具">插件管理工具</h3>
+<h3 id="2-1插件管理工具">2.1插件管理工具</h3>
 
-<h3 id="自动补全工具">自动补全工具</h3>
+<ul>
+<li>curl -fLo ~/.config/nvim/autoload/plug.vim &ndash;create-dirs <br /></li>
+<li><a href="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim">https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</a></li>
+</ul>
 
-<h2 id="一些问题">一些问题</h2>
+<h3 id="2-2自动补全工具ycm">2.2自动补全工具YCM</h3>
+
+<h2 id="3-一些问题">3.一些问题</h2>
 
 <h3 id="使用系统剪切板">使用系统剪切板</h3>
 
@@ -320,7 +325,7 @@ map &lt;C-v&gt; &quot;+p
 
 <p>可以在<code>NORMAL</code>模式中使用<code>Ctrl-c</code> <code>Ctrl-v</code>, <code>Ctrl-c</code>使用时可以在之前输入数字表示要复制多少行,或者在<code>VISUAL</code>模式中选中后使用.</p>
 
-<h2 id="配置文件">配置文件</h2>
+<h2 id="4-配置文件">4.配置文件</h2>
 
 <p>最后附上我的配置文件:
 <a href="https://github.com/ade9527/hugo_blog_source/blob/master/static/tool_configs/init.vim">~/.config/nvim/init.vim</a></p>
@@ -445,20 +450,20 @@ map &lt;C-v&gt; &quot;+p
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1535466169"></script>
-    <script src="/js/perfect-scrollbar.min.js?1535466169"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1535466169"></script>
-    <script src="/js/jquery.sticky.js?1535466169"></script>
-    <script src="/js/featherlight.min.js?1535466169"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1535466169"></script>
-    <script src="/js/highlight.pack.js?1535466169"></script>
+    <script src="/js/clipboard.min.js?1535548411"></script>
+    <script src="/js/perfect-scrollbar.min.js?1535548411"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1535548411"></script>
+    <script src="/js/jquery.sticky.js?1535548411"></script>
+    <script src="/js/featherlight.min.js?1535548411"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1535548411"></script>
+    <script src="/js/highlight.pack.js?1535548411"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1535466169"></script>
-    <script src="/js/learn.js?1535466169"></script>
-    <script src="/js/hugo-learn.js?1535466169"></script>
+    <script src="/js/modernizr.custom.71422.js?1535548411"></script>
+    <script src="/js/learn.js?1535548411"></script>
+    <script src="/js/hugo-learn.js?1535548411"></script>
 
-    <link href="/mermaid/mermaid.css?1535466169" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1535466169"></script>
+    <link href="/mermaid/mermaid.css?1535548411" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1535548411"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
